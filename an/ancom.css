@@ -1,0 +1,81 @@
+.box{
+  position: relative;
+  
+}
+.select-box{
+  display: none;
+}
+.box:hover .select-box{
+  display: block;
+}
+.box > span{
+  cursor: pointer;
+  background-color:#9BBEEC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  width:100%;
+  
+}
+.select-box{
+  width:100%;
+  background-color:#9BBEEC;
+  position: absolute;
+  left: 0px;
+  right: 30px;
+}
+.select-box > p{
+  cursor: pointer
+  
+}
+.select-box > p:hover{
+  background-color:#9BBEEC;
+  
+}
+.header{
+  
+  width:100%;
+  height:11%;
+}
+
+.mapleft{
+  background-color:#9A99FF;
+  float:left;
+  height:100%;
+  width:75%;
+}
+.mapright{
+  
+  float:left;
+  height:100%;
+  width:25%;
+}
+.maptitle{
+  font-family:LiSu;
+}
+a{text-decoration:none;color:snow;}
+.mapchoice{
+ text-align:center;
+  
+}
+.body{
+  width:100%;
+  margin-top:-19px;
+  
+  
+  
+}
+.foot{
+  background-color:grey;
+  width:100%;
+  height:20%;
+  
+}
+.footword{
+  font-size:15px;
+  text-align: center;
+  color:white;
+  
+}
+
